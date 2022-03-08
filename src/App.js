@@ -28,7 +28,7 @@ function App() {
     if(City == "" || !City) return setLoading(false);
     setLoading(true);
 
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=7ad179d543b6431f9c7184107220503&q=${City}&aqi=no`)
+    axios.get(`https://api.weatherapi.com/v1/current.json?key=7ad179d543b6431f9c7184107220503&q=${City}&aqi=no`)
     .then(async resp => {
       await new Promise(r=>setTimeout(r, 500))
       setWeather(resp.data);
