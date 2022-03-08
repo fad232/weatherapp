@@ -81,3 +81,8 @@ img{
       transform: rotate(360deg);
     }
   }
+
+.icon{
+    cursor:pointer !important;
+    pointer-events: auto !important;
+}

@@ -45,7 +45,7 @@ function App() {
       setLoading(false);
     })
 
-    
+    document.getElementsByClassName("search")[0].addEventListener("click", handleAddCity)
   },[City])
   
   function handleAddCity(event){
