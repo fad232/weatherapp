@@ -41,7 +41,7 @@ function App() {
       setLoading(false);
       
     }).catch(error => {
-      alert(error.message)
+      alert("Dekhel smiya mgada asat")
       setLoading(false);
     })
 
