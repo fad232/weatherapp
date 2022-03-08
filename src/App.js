@@ -67,6 +67,13 @@ function App() {
   
   
   return (
+    <>
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://fadiliweather.vercel.app" />
+      <meta property="og:title" content="Fadili weather" />
+      <meta property="og:description" content="Your favorite weather app." />
+      <meta property="og:image" content="https://fadiliweather.vercel.app/thumb.png" />
+      <title>Fadili weather</title>
     <div>
       
         
@@ -93,7 +100,7 @@ function App() {
       
       
     </div>
-    
+    </>
   );
 }
 
